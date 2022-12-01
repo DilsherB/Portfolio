@@ -43,19 +43,44 @@ intro {
   gap: 20px;
 }
 
-button {
+#buttons {
+  font-family: 'poppins';
   box-sizing: border-box;
   display: flex;
-  align-items: center;
-  padding: 12px;
   gap: 10px;
   position: absolute;
-  width: 93px;
   height: 48px;
-  left: 100px;
+  left: 50px;
   top: calc(50% - 48px/2 + 57.5px);
+}
+
+#enabled {
+  padding: 12px;
+  width: 93px;
   background: #FFFFFF;
   border: 1px solid #7F8CFF;
   border-radius: 8px;
 }
 
+#hover {
+  padding: 12px;
+  width: 93px;
+  background: #6070FF;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+#pressed {
+  padding: 12px;
+  width: 93px;
+  background: #2230D2;
+  border-radius: 8px;
+}
+
+#disabled {
+  color: #5E6C84;
+  padding: 12px;
+  width: 93px;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+}
