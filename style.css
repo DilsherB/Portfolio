@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+body {
+  padding: 0 10px;
+}
+
 #header {
   color: #6070ff;
   display: flex;
@@ -27,7 +31,7 @@
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #sociHeading {
@@ -40,8 +44,8 @@
 
 #sociConnector {
   display: flex;
-  justify-content: flex-start;
   gap: 20px;
+  list-style-type: none;
 }
 
 #buttons {
