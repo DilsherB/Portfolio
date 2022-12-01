@@ -42,3 +42,20 @@ intro {
   justify-content: flex-start;
   gap: 20px;
 }
+
+button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 93px;
+  height: 48px;
+  left: 100px;
+  top: calc(50% - 48px/2 + 57.5px);
+  background: #FFFFFF;
+  border: 1px solid #7F8CFF;
+  border-radius: 8px;
+}
+
