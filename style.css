@@ -3,7 +3,7 @@
 #header {
   color: #6070ff;
   display: flex;
-  font-family: 'poppins';
+  font-family: poppins;
   font-weight: 700;
   font-size: 18px;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   font-size: 40px;
 }
 
-intro {
+#intro {
   color: #344563;
   font-family: 'Poppins';
   font-weight: 400;
@@ -58,7 +58,7 @@ intro {
 #enabled {
   padding: 12px;
   width: 93px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #7f8cff;
   border-radius: 8px;
 }
