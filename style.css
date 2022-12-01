@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 #header {
-  color: #6070FF;
+  color: #6070ff;
   display: flex;
   font-family: 'poppins';
   font-weight: 700;
@@ -15,7 +16,7 @@
 }
 
 #introHeader {
-  color: #172B4D;
+  color: #172b4d;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -30,7 +31,7 @@ intro {
 }
 
 #sociHeading {
-  color: #6070FF;
+  color: #6070ff;
   font-family: 'poppins';
   font-weight: 500;
   font-size: 16px;
@@ -51,21 +52,21 @@ intro {
   position: absolute;
   height: 48px;
   left: 50px;
-  top: calc(50% - 48px/2 + 57.5px);
+  top: calc(50% - 48px / 2 + 57.5px);
 }
 
 #enabled {
   padding: 12px;
   width: 93px;
-  background: #FFFFFF;
-  border: 1px solid #7F8CFF;
+  background: #ffffff;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
 }
 
 #hover {
   padding: 12px;
   width: 93px;
-  background: #6070FF;
+  background: #6070ff;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -73,14 +74,14 @@ intro {
 #pressed {
   padding: 12px;
   width: 93px;
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
 #disabled {
-  color: #5E6C84;
+  color: #5e6c84;
   padding: 12px;
   width: 93px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
 }
