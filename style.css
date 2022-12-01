@@ -3,7 +3,7 @@
 #header {
   color: #6070ff;
   display: flex;
-  font-family: poppins;
+  font-family: 'Poppins';
   font-weight: 700;
   font-size: 18px;
   justify-content: space-between;
@@ -32,7 +32,7 @@
 
 #sociHeading {
   color: #6070ff;
-  font-family: 'poppins';
+  font-family: 'Poppins';
   font-weight: 500;
   font-size: 16px;
   line-height: 44px;
@@ -45,7 +45,7 @@
 }
 
 #buttons {
-  font-family: 'poppins';
+  font-family: 'Poppins';
   box-sizing: border-box;
   display: flex;
   gap: 10px;
