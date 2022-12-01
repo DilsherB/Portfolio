@@ -1,0 +1,41 @@
+#header {
+  color: #6070FF;
+  display: flex;
+  font-family: 'poppins';
+  font-weight: 700;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+#headline {
+  background-image: url("images/header bg.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#introHeader {
+  color: #172B4D;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+intro {
+  color: #344563;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#sociHeading {
+  color: #6070FF;
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#sociConnector {
+  list-style: none;
+  display: flex;
+}
