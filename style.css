@@ -150,16 +150,15 @@ ul > :first-child {
 .html {
   padding: 4px 12px;
   height: 16px;
-  /* width: 29px; */
+  width: 29px;
 }
 
 .css {
-  /* width: 45px; */
+  width: 45px;
   height: 16px;
 }
 
 .js {
-  /* width: 89px; */
   height: 16px;
 }
 
