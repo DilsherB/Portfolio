@@ -53,6 +53,7 @@ button:disabled {
 #headline {
   background-image: url("images/header bg.svg");
   background-repeat: no-repeat;
+  background-size: 455px;
   border-bottom-left-radius: 50px;
   background-color: white;
   padding: 10px 20px 40px 20px;
@@ -203,4 +204,43 @@ ul > :first-child {
 
 .expanded img {
   rotate: 90deg;
+}
+
+#contact {
+  background-image: url("images/Contact me.svg");
+  background-repeat: no-repeat;
+  background-size: 455px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 70px 20px 30px 20px;
+  text-align: center;
+  background-color: #fff;
+  list-style: none;
+}
+
+#contact > h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+form > ul {
+  list-style: none;
+}
+
+.tb, textarea {
+  width: 325px;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 17px;
+}
+
+form > button {
+  font-weight: 500px;
+  font-size: 17px;
+  justify-self: left;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 30px;
 }
