@@ -19,6 +19,15 @@ button {
   padding: 12px;
 }
 
+form > button {
+  font-weight: 500px;
+  font-size: 17px;
+  justify-self: left;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 30px;
+}
+
 button:enabled {
   background: #fff;
   border: 1px solid #7f8cff;
@@ -228,19 +237,11 @@ form > ul {
   list-style: none;
 }
 
-.tb, textarea {
+.tb,
+textarea {
   width: 325px;
   border-radius: 8px;
   margin-top: 15px;
   padding: 12px;
   font-size: 17px;
-}
-
-form > button {
-  font-weight: 500px;
-  font-size: 17px;
-  justify-self: left;
-  margin-top: 15px;
-  display: flex;
-  margin-left: 30px;
 }
