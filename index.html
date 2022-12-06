@@ -142,10 +142,10 @@
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         <form action="#" method="post">
             <ul>
-                <li><input type="text" id="name" placeholder="Dilsher" class="tb"></li>
-                <li><input type="email" id="email" placeholder="dilsherb@gmail.com" class="tb"></li>
+                <li><input type="text" id="name" placeholder="Dilsher" class="tb" maxlength="30" required></li>
+                <li><input type="email" id="email" placeholder="dilsherb@gmail.com" class="tb" required></li>
             </ul>
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Write your message here."></textarea>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Write your message here." maxlength="500" required></textarea>
             <button type="submit" id="submit">Get in touch</button>
         </form>
     </section>

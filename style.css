@@ -20,12 +20,9 @@ button {
 }
 
 form > button {
-  font-weight: 500px;
+  font-weight:500;
+  width: 150px;
   font-size: 17px;
-  justify-self: left;
-  margin-top: 15px;
-  display: flex;
-  margin-left: 30px;
 }
 
 button:enabled {
