@@ -124,7 +124,10 @@ I'll upload all my work and in near future you will be able to visit the website
 <!-- Contributing -->
 
 # 📖 [Contributing] <a name="contributing"></a>
-I am thankfull to you in advance if you look at my work and give your contribution.
+Here are the contributores of this project
+1. Alice Gathoni Mirigo
+2. Alwyn Androvelle
+3. Dilsher Balouch
 
 <!-- Show your support -->
 
