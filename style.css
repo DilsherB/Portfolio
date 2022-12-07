@@ -20,9 +20,13 @@ button {
 }
 
 form > button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
   font-weight: 500;
   width: 150px;
   font-size: 17px;
+  justify-content: center;
 }
 
 button:enabled {
@@ -215,14 +219,21 @@ ul > :first-child {
 #contact {
   background-image: url("images/Contact me.svg");
   background-repeat: no-repeat;
-  background-size: 455px;
+  background-size: 450px;
   display: flex;
   flex-direction: column;
   color: #fff;
-  padding: 70px 20px 30px 20px;
   text-align: center;
   background-color: #fff;
   list-style: none;
+}
+
+#wrap {
+  padding: 70px 20px 30px 20px;
+  background-image: url("images/contact me 2.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 225px 50px;
 }
 
 #contact > h1 {
