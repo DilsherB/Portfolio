@@ -229,10 +229,9 @@ ul > :first-child {
 }
 
 #wrap {
-  padding: 70px 20px 30px 20px;
+  padding: 110px 20px 0px 20px;
   background-image: url("images/contact me 2.svg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 225px 50px;
 }
 
