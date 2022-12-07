@@ -19,6 +19,16 @@ button {
   padding: 12px;
 }
 
+form > button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  font-weight: 500;
+  width: 150px;
+  font-size: 17px;
+  justify-content: center;
+}
+
 button:enabled {
   background: #fff;
   border: 1px solid #7f8cff;
@@ -53,6 +63,7 @@ button:disabled {
 #headline {
   background-image: url("images/header bg.svg");
   background-repeat: no-repeat;
+  background-size: 455px;
   border-bottom-left-radius: 50px;
   background-color: white;
   padding: 10px 20px 40px 20px;
@@ -203,4 +214,42 @@ ul > :first-child {
 
 .expanded img {
   rotate: 90deg;
+}
+
+#contact {
+  background-image: url("images/Contact me.svg");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  background-color: #fff;
+  list-style: none;
+}
+
+#wrap {
+  padding: 70px 20px 30px 20px;
+  background-image: url("images/contact me 2.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 225px 50px;
+}
+
+#contact > h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+form > ul {
+  list-style: none;
+}
+
+.tb,
+textarea {
+  width: 325px;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 17px;
 }
