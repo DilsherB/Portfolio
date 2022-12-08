@@ -266,12 +266,14 @@ textarea {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: baseline;
-  }
+    gap: 50px;
+    padding-left: 300px;
+  } 
 
   #header {
     padding: 20px 150px;
+    position: fixed;
   }
 
   #headline {
@@ -343,5 +345,11 @@ textarea {
     grid-template-columns: 40% 60%;
     background-color: #fff;
     margin: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #menu {
+    display: none;
   }
 }
