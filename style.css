@@ -254,6 +254,22 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #menu {
+    width: 30%;
+  }
+
+  #menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
   #header {
     padding: 20px 150px;
   }
@@ -320,5 +336,12 @@ textarea {
   .tb,
   textarea {
     width: 80%;
+  }
+
+  .aboutMyselfWrap {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #fff;
+    margin: 60px;
   }
 }
