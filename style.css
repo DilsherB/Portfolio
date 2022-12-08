@@ -105,7 +105,7 @@ li > a > img {
   margin: 20px;
 }
 
-.project {
+.projectWrap {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -251,4 +251,75 @@ textarea {
   margin-top: 15px;
   padding: 12px;
   font-size: 17px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      font-family: 'Poppins';
+    }
+
+    #header {
+      padding: 20px 150px;
+    }
+
+    #headline {
+      padding: 280px 200px;
+      background-image: url("images/desktopIntroBG.svg");
+      background-size: 98%;
+    }
+
+    .projectWrap {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      background-color: #fff;
+      border-radius: 10px;
+      margin: 60px;
+    }
+
+    .aboutProject {
+      padding: 70px 30px;
+    }
+
+    button {
+      width: 120px;
+    }
+
+    #project2,
+    #project4 {
+      order: 1;
+    }
+
+    #langs {
+      display: flex;
+      gap: 15px;
+    }
+
+    #langs > li {
+      display: flex;
+      flex-direction: column;
+      background-color: #f7f7f9;
+      height: auto;
+    }
+
+    #wrap {
+      background-image: url("images/contactDesktopBG.svg");
+      background-size: 75%;
+      background-color: #6070ff;
+      padding: 110px 35% 80px 35%;
+    }
+
+    #wrap > h1 {
+      font-size: 40px;
+    }
+
+    form > button {
+      display: flex;
+      justify-content: right;
+    }
+
+    .tb,
+    textarea {
+      width: 80%;
+    }
+    
 }
