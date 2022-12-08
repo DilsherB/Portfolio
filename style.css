@@ -254,10 +254,6 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    font-family: 'Poppins';
-    }
-
   #header {
     padding: 20px 150px;
   }
@@ -321,4 +317,5 @@ textarea {
   textarea {
     width: 80%;
   }   
+
 }
