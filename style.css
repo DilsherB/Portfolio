@@ -305,9 +305,7 @@ textarea {
   #wrap {
     background-image: url("images/contactDesktopBG.svg");
     background-size: 75%;
-    /* background-color: #6070ff; */
     padding: 110px 35% 80px 35%;
-    
   }
 
   #wrap > h1 {
