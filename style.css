@@ -105,7 +105,7 @@ li > a > img {
   margin: 20px;
 }
 
-.project {
+.projectWrap {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -229,7 +229,7 @@ ul > :first-child {
 }
 
 #wrap {
-  padding: 110px 20px 0px 20px;
+  padding: 110px 20px 0 20px;
   background-image: url("images/contact me 2.svg");
   background-repeat: no-repeat;
   background-position: 225px 50px;
@@ -251,4 +251,105 @@ textarea {
   margin-top: 15px;
   padding: 12px;
   font-size: 17px;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #menu {
+    width: 30%;
+  }
+
+  #menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 50px;
+    padding-left: 300px;
+  }
+
+  #header {
+    padding: 20px 150px;
+    position: fixed;
+  }
+
+  #headline {
+    padding: 280px 200px;
+    background-image: url("images/desktopIntroBG.svg");
+    background-size: 98%;
+  }
+
+  .projectWrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 60px;
+  }
+
+  .aboutProject {
+    padding: 70px 30px;
+  }
+
+  button {
+    width: 120px;
+  }
+
+  #project2,
+  #project4 {
+    order: 1;
+  }
+
+  #langs {
+    display: flex;
+    gap: 15px;
+  }
+
+  #langs > li {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f9;
+    height: auto;
+  }
+
+  #contact {
+    background-color: #6070ff;
+    border-top-left-radius: 200px;
+  }
+
+  #wrap {
+    background-image: url("images/contactDesktopBG.svg");
+    background-size: 75%;
+    padding: 110px 35% 80px 35%;
+  }
+
+  #wrap > h1 {
+    font-size: 40px;
+  }
+
+  form > button {
+    display: flex;
+    justify-content: right;
+  }
+
+  .tb,
+  textarea {
+    width: 80%;
+  }
+
+  .aboutMyselfWrap {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #fff;
+    margin: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #menu {
+    display: none;
+  }
 }
