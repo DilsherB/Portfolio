@@ -104,22 +104,22 @@ li > a > img {
   width: 25px;
 }
 
+.project > img {
+  width: 100%;
+}
+
+.expanded > img {
+  rotate: 90deg;
+}
+
 li > a > img:hover {
   transform: scale(2);
   transition: all 0.5s ease;
 }
 
-.project > img {
-  width: 100%;
-}
-
 #works {
   display: grid;
   margin: 20px;
-}
-
-.expanded > img {
-  rotate: 90deg;
 }
 
 #works img:hover {
