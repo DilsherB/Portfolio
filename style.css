@@ -17,6 +17,7 @@ button {
   margin: 10px 0;
   border-radius: 8px;
   padding: 12px;
+  transition: all 1s ease;
 }
 
 form > button {
@@ -38,6 +39,9 @@ button:enabled {
 button:hover {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  font-size: large;
+  color: #fff;
+  width: 30%;
 }
 
 button:active {
@@ -100,9 +104,27 @@ li > a > img {
   width: 25px;
 }
 
+.project > img {
+  width: 100%;
+}
+
+.expanded > img {
+  rotate: 90deg;
+}
+
+li > a > img:hover {
+  transform: scale(2);
+  transition: all 0.5s ease;
+}
+
 #works {
   display: grid;
   margin: 20px;
+}
+
+#works img:hover {
+  transform: scale(1.05);
+  transition: all 01s ease;
 }
 
 .projectWrap {
@@ -112,10 +134,6 @@ li > a > img {
   padding: 15px;
   border-radius: 20px;
   margin: 20px 10px;
-}
-
-.project > img {
-  width: 100%;
 }
 
 .projectTimeLine {
@@ -212,10 +230,6 @@ ul > :first-child {
   border: none;
 }
 
-.expanded img {
-  rotate: 90deg;
-}
-
 #contact {
   background-image: url("images/Contact me.svg");
   background-repeat: no-repeat;
@@ -258,8 +272,25 @@ textarea {
     display: none;
   }
 
+  #logo {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(300deg);
+    }
+  }
+
   #menu {
-    width: 30%;
+    width: 70%;
   }
 
   #menu > ul {
@@ -269,11 +300,13 @@ textarea {
     align-items: baseline;
     gap: 50px;
     padding-left: 300px;
+    transition: all 2s ease;
   }
 
   #header {
     padding: 20px 150px;
     position: fixed;
+    width: 100%;
   }
 
   #headline {
