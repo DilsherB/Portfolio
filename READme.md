@@ -103,7 +103,7 @@ This website is built by using HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-dilsher.github.io
+https://dilsherb.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
