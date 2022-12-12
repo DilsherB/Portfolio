@@ -80,31 +80,6 @@ button:disabled {
   font-size: 40px;
 }
 
-
-#introHeader span,
-#sociHeading {
-  letter-spacing: 5px;
-  color: #484848;
-  animation: animate 1.4s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    color: #484848;
-    text-shadow: none;
-  }
-
-  50% {
-    color: #484848;
-    text-shadow: none;
-  }
-
-  100% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 50px #fff900;
-  }
-}
-
 #intro {
   color: #344563;
   font-weight: 400;
@@ -178,6 +153,30 @@ li > a > img:hover {
   width: 8px;
   background-color: gray;
   border-radius: 4px;
+}
+
+#introHeader span,
+#sociHeading {
+  letter-spacing: 5px;
+  color: #484848;
+  animation: animate 1.4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  50% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #fff900;
+  }
 }
 
 #introHeader span:nth-child(1) { animation-delay: 0s; }
