@@ -110,3 +110,34 @@ https://github.com/DilsherB/Portfolio
 <!-- GETTING STARTED -->
 
 In order to run this project you only need a web browser and internet connection.
+
+<!-- Authors -->
+
+# 📖 [Authors] <a name="authors"></a>
+Dilsher Balouch
+
+<!-- Future Features -->
+
+# 📖 [Future Features] <a name="future-features"></a>
+I'll upload all my work and in near future you will be able to visit the websites i made.
+
+<!-- Contributing -->
+
+# 📖 [Contributing] <a name="contributing"></a>
+Here are the contributores of this project
+1. Alice Gathoni Mirigo
+2. Alwyn Androvelle
+3. Dilsher Balouch
+
+<!-- Show your support -->
+
+# 📖 [Show your support] <a name="support"></a>
+Please support me to achieve my goals in the field of web-development
+
+<!-- Acknowledgements -->
+
+# 📖 [Acknowledgements] <a name="acknowledgements"></a>
+
+<!-- License -->
+
+# 📖 [License] <a name="license"></a>
