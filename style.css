@@ -401,8 +401,7 @@ textarea {
 
     100% {
       color: #fff900;
-      text-shadow: 0 0 7px #fff900,
-                   0 0 50px #fff900;
+      text-shadow: 0 0 7px #fff900, 0 0 50px #fff900;
     }
   }
   
