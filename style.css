@@ -420,7 +420,6 @@ textarea {
   #introHeader span:nth-child(13) { animation-delay: 1.2s; }
   #introHeader span:nth-child(14) { animation-delay: 1.3s; }
   #introHeader span:nth-child(15) { animation-delay: 1.4s; }
-}
 
 @media only screen and (max-width: 768px) {
   #menu {
