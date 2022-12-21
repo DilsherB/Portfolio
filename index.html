@@ -4,187 +4,416 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
     <link rel="stylesheet" href="style.css">
-    <title>Dilsher Balouch</title>
+    <title>Dilsher(developer)'s Portfolio</title>
 </head>
 <body>
-    <header id="header">
-        <a href="#logo" id="logo">Dilsher Balouch</a>
-        <nav id="menuIcon"><img src="images/menuIcon.svg" alt="Mobile Menu Icon"></nav>
-        <div id="menu">
-            <ul>
-                <li> <a href="#headline">Portfilio</a></li>
-                <li> <a href="#project1">About</a></li>
-                <li> <a href="#contact">Contact</a></li>
-            </ul>
+    <nav class="container-fluid navbar navbar-expand-sm fixed-top navbar-light bg-light">
+        <div class="container">
+            <div>
+                <img src="images/Farhan.jpeg" alt="brand logo" class="rounded-circle" width="50px" height="50px">
+                <a class="navbar-brand" href="#">Dilsher</a>
+            </div>
+            <button class="navbar-toggler" type="button" id="menu" data-bs-toggle="collapse" 
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end bg-primar " id="collapsibleNavbar">
+                <ul class="navbar-nav nav-height">
+                    <li class="nav-item">
+                        <i class="nav-link dropdown-item fa fa-close text-center"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" id="nav-link" 
+                            href="#recentWorks">Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <section id="headline">
-        <h1 id="introHeader">
-            <span>I</span><span>'a</span><span>m</span>
-            <span> D</span><span>i</span><span>l</span><span>s</span><span>h</span><span>e</span><span>r</span>
-            <span> B</span><span>a</span><span>l</span><span>o</span><span>u</span><span>c</span><span>h,</span>
-            </br> Glad to see you!
-        </h1>
-        <p id="intro">I’m a software developer! I can help you build a product, 
-            feature or website Look through some of my work and experience! 
-            If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.
-        </p>
-        <div id="sociHeading">LET'S CONNECT</div>
-        <ul id="sociConnector">
-            <li><a href="https://twitter.com/_brilliantMindz" target="_blank"><img src="images/twitter.svg"></a></li>
-            <li><a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/" target="_blank"><img src="images/linkedin.svg"></a></li>
-            <li><a href="https://www.facebook.com/dilsherb" target="_blank"><img src="images/fb.svg" alt=""></a></li>
-            <li><a href="https://github.com/DilsherB" target="_blank"><img src="images/github.svg" alt=""></a></li>
-            <li><a href="#"><img src="images/hand.svg" alt="" target="_blank"></a></li>
-        </ul>
-    </section>
+    </nav>
 
-    <section id="works">
-        <div class="projectWrap">
-            <div class="project" id="project1">
-                <img src="images/project1.svg" alt="">
+    <div class="container-fluid bg-image bg-white text-center p-5 rounded-3"
+        style="background-image: url('images/desktopIntroBG.svg'); 
+                background-size: contain; 
+                background-position: center; 
+                background-repeat: no-repeat;">
+        <h1 class="container p-5">I'am Dilsher <br>Glad to see you!</h1>
+        <p class="mb-5">
+            I’m a software developer! I can help you build a product, 
+            feature or website Look through some of my work and 
+            experience! If you like what you see and have a project 
+            you need coded, don’t hestiate to contact me. 
+        </p>
+        <h3>LET'S CONNECT</h3>
+        <a href="https://twitter.com/_brilliantMindz" target="_blank">
+            <button class="btn btn-outline-primary" type="button">
+                <span> 
+                    <i class="fa-brands fa-twitter"></i>
+                </span> 
+                <span>Twitter</span>
+            </button>
+        </a>
+        <a href="https://www.facebook.com/dilsherb" target="_blank">
+            <button class="btn btn-outline-primary" type="button">
+                <span> 
+                    <i class="fa-brands fa-facebook"></i>
+                </span> 
+                <span>Facebook</span>
+            </button>
+        </a>
+        <a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/" target="_blank">
+            <button class="btn btn-outline-primary" type="button">
+                <span>
+                    <i class="fa-brands fa-linkedin"></i>
+                </span> 
+                <span>LinkedIn</span>
+            </button>
+        </a>
+        <a href="https://wa.me/+966562680406" target="_blank">
+            <button class="btn btn-outline-success" type="button">
+                <span> 
+                    <i class="fa-brands fa-whatsapp"></i>
+                </span> 
+                <span>Whatsapp</span>
+            </button>
+        </a>
+        <a href="https://github.com/DilsherB" target="_blank">
+            <button class="btn btn-outline-dark" type="button">
+                <span>
+                    <i class="fa-brands fa-github"></i>
+                </span> 
+                <span>GitHub</span>
+            </button>
+        </a>
+    </div>
+<hr class="bg-white fw-bolder">
+    <section class="container-fluid bg-white rounded-3" id="recentWorks">
+        <h2 class="text-center p-5 text-decoration-underline fs-1">My recent works</h2>
+        <section class="row d-flex justify-content-around">
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project1.svg" alt="Project 1" id="imgProject1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center" id="title1">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around" id="project1Langs">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" id="lang1Project1" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" id="lang2Project1" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" id="lang3Project1" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" id="lang4Project1" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3 showModal" data-bs-toggle="modal" data-bs-target="#project1">See Project</button>
+                            <div class="modal fade" id="project1">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body" id="body1">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="aboutProject">
-                <h2 class="projectName">Tonic</h2>
-                <ul class="projectTimeLine">
-                    <li>Canopy</li>
-                    <li><span> </span></li>
-                    <li>Back End Dev</li>
-                    <li><span></span></li>
-                    <li>2015</li>
-                </ul>
-                <p class="projectTimeLine">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="ulDisplay">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="js">javascrip</li>
-                </ul>
-                <button >See Project</button>
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project2.svg" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#project2">See Project</button>
+                            <div class="modal fade" id="project2">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="projectWrap">
-            <div class="project" id="project2">
-                <img src="images/project2.svg" alt="">
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project3.svg" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#project3">See Project</button>
+                            <div class="modal fade" id="project3">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="aboutProject">
-                <h2 class="projectName">Multi-Post Stories</h2>
-                <ul class="projectTimeLine">
-                    <li>Canopy</li>
-                    <li><span></span></li>
-                    <li>Back End Dev</li>
-                    <li><span></span></li>
-                    <li>2015</li>
-                </ul>
-                <p class="projectTimeLine">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="ulDisplay">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="js">javascrip</li>
-                </ul>
-                <button >See Project</button>
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project3.svg" alt="Project 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#project4">See Project</button>
+                            <div class="modal fade" id="project4">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="projectWrap">
-            <div class="project" id="project3">
-                <img src="images/project3.svg" alt="">
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project1.svg" alt="Project 5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#project5">See Project</button>
+                            <div class="modal fade" id="project5">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="aboutProject">
-                <h2 class="projectName">Tonic</h2>
-                <ul class="projectTimeLine">
-                    <li>Canopy</li>
-                    <li><span></span></li>
-                    <li>Back End Dev</li>
-                    <li><span></span></li>
-                    <li>2015</li>
-                </ul>
-                <p class="projectTimeLine">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="ulDisplay">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="js">javascrip</li>
-                </ul>
-                <button >See Project</button>
-            </div>
-        </div>
-        <div class="projectWrap">
-            <div class="project" id="project4">
-                <img src="images/project4.svg" alt="">
-            </div>
-            <div class="aboutProject">
-                <h2 class="projectName">Multi-Post Stories</h2>
-                <ul class="projectTimeLine">
-                    <li>Canopy</li>
-                    <li><span></span></li>
-                    <li>Back End Dev</li>
-                    <li><span></span></li>
-                    <li>2015</li>
-                </ul>
-                <p class="projectTimeLine">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="ulDisplay">
-                    <li class="html">html</li>
-                    <li class="css">css</li>
-                    <li class="js">javascrip</li>
-                </ul>
-                <button >See Project</button>
-            </div>
-        </div>
-    </section>
-    <section id="aboutMyself">
-        <div class="aboutMyselfWrap">
-            <div>
-                <h2 id="introHeader">About Myself</h2>
-                <p id="intro">I’m a software developer! I can help you build a product, 
-                feature or website Look through some of my work and experience! 
-                If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-                </p>
-                <div id="sociHeading">LET'S CONNECT</div>
-                <ul id="sociConnector">
-                    <li><a href="https://twitter.com/_brilliantMindz"><img src="images/twitter.svg"></a></li>
-                    <li><a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/"><img src="images/linkedin.svg"></a></li>
-                    <li><a href="https://www.facebook.com/dilsherb"><img src="images/fb.svg" alt=""></a></li>
-                    <li><a href="https://github.com/DilsherB"><img src="images/github.svg" alt=""></a></li>
-                    <li><a href="#"><img src="images/hand.svg" alt=""></a></li>
-                </ul>
-                <button>Get my resume</button>
-            </div>
-            <div>
-                <div class="abilityItem expanded"><h2>Languages</h2><img class="arrow" src="images/arrow.svg" alt=""></div>
-                <ul id="langs">
-                    <li class="bgs"> <img src="images/jsLogo.svg" alt="">JavaScript</li>
-                    <li class="bgs"> <img src="images/htmlLogo.svg" alt="">HTML</li>
-                    <li class="bgs"> <img src="images/cssLogo.svg" alt="">CSS</li>
-                </ul>
-                <div class="abilityItem"><h2>Frameworks</h2><img class="arrow" src="images/arrow.svg" alt=""></div>
-                <div class="abilityItem"><h2>Skills</h2><img class="arrow" src="images/arrow.svg" alt=""></div>
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <img src="images/project4.svg" alt="Project 6">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Multi-Post Stories<br> Gain+Glory</h5>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>Ruby on rails</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>CSS</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>JavaScrip</button>
+                            <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>HTML</button>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#project6">See Project</button>
+                            <div class="modal fade" id="project6">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>modal body</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+    </section>
 
-    <section id="contact">
-        <div id="wrap">
-            <h1>Contact me</h1>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <form action="https://formspree.io/f/xjvznrzl" method="post">
-                <ul>
-                    <li><input type="text" name="name" id="name" placeholder="Dilsher" class="tb" maxlength="30" required></li>
-                    <li><input type="email" name="email" id="email" placeholder="dilsherb@gmail.com" class="tb" required></li>
-                </ul>
-                <textarea name="msg" name="msg" id="msg" cols="30" rows="10" placeholder="Write your message here." maxlength="500" required></textarea>
-                <div id="submitBtn"><button type="submit" id="submit" name="button">Get in touch</button></div>
-            </form>
+    <hr class="bg-white">
+    <section class="container-fluid bg-white bg-image text-center py-5 rounded-3" id="about">
+        <div style="background-image: url('images/aboutMe.svg'); 
+                background-size: contain; 
+                background-position: center; 
+                background-repeat: no-repeat;">
+        
+            <div class="py-5 mx-5">
+                <h2 class="mb-3">About Me</h2>
+                <div class="row justify-content-center">
+                    <p class="col-md-8"> I can help you build a product , feature or website Look through some of my work and 
+                        experience! If you like what you see and have a project you need coded, don’t hestiate 
+                        to contact me.
+                    </p>
+                </div>
+                <a href="Docs/Short CV.pdf" target="_blank" class="btn btn-success">Get My Resume</a>
+            </div>
+        </div>
+        
+        <div class="row px-5">
+            <div class="col-md-4 my-3">
+                <div class="card bg-light py-5">
+                    <img src="images/langsImg.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Languages</h5>
+                        <div class="row pt-4">
+                            <div>
+                                <button class="btn btn-outline-success">JavaScrip</button>
+                                <button class="btn btn-outline-success">Ruby</button>
+                                <button class="btn btn-outline-success">HTML</button>
+                                <button class="btn btn-outline-success">CSS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-md-4 my-3">
+                <div class="card bg-light py-5">
+                    <img src="images/frameworksImg.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Frameworks</h5>
+                        <div class="row pt-4">
+                            <div>
+                                <button class="btn btn-outline-success">Bootstrap</button>
+                                <button class="btn btn-outline-success">Ruby on rails</button>
+                                <button class="btn btn-outline-success">Rspec</button>
+                                <button class="btn btn-outline-success">Capybara</button>
+                                <button class="btn btn-outline-success">Selenium</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3">
+                <div class="card bg-light py-5">
+                    <img src="images/skillsImg.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Skills</h5>
+                        <div class="row pt-4">
+                            <div>
+                                <button class="btn btn-outline-success">Codekit</button>
+                                <button class="btn btn-outline-success">GitHub</button>
+                                <button class="btn btn-outline-success">Codepen</button>
+                                <button class="btn btn-outline-success">Terminal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-
+    <hr class="bg-white fw-bolder">
+    <section class="container-fluid bg-white bg-image rounded-3 pt-5" id="contact">
+        <h2 class="bg-white text-center text-decoration-underline">Send a message</h2>
+        <div class="row mx-5 py-5">
+            <div class="col-md-5 fs-4 mt-5">
+                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+            </div>
+            <div class="col-md-7">
+                <form action="https://formspree.io/f/mgebwzzy" method="post">
+                    <div class="row">
+                        <input class="col-md-6 lh-lg rounded px-2 mb-3" type="text" id="fName" placeholder="First Name">
+                        <input class="col-md-6 lh-lg rounded px-2 mb-3" type="text" id="lName" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input class="col-md-12 lh-lg rounded px-2 mb-3" type="email" placeholder="Email address">
+                    </div>
+                    <div class="row">
+                        <textarea name="msg" id="msg" cols="30" rows="5" class="col-md-12 lh-lg rounded px-2"></textarea>
+                    </div>
+                    <button type="submit" class="row btn btn-success mt-4">Get in touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <img src="images/hrLine.svg" alt="" class="bg-white py-4">
+    <footer class="row bg-white">
+        <div class="col-md-5"></div>
+        <div class="pb-4 col-md-2 justify-content-around d-flex">
+            <a href="https://twitter.com/_brilliantMindz" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.facebook.com/dilsherb" target="_blank">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://wa.me/+966562680406" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-lg"></i>
+            </a>
+            <a href="https://github.com/DilsherB" target="_blank">
+                <i class="fa-brands fa-github fa-lg"></i>
+            </a>
+        </div>
+        <div class="col-md-5"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
