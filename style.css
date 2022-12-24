@@ -7,12 +7,34 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f0f2f5;
+  font-family: 'Inter', 'lnter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  background-color: #344563;
 }
 
 .nav-height {
   height: 100vh;
+}
+
+.langsBg {
+  background-color: #cad2df;
+}
+
+.cardHeight {
+  height: 400px;
+}
+
+#modalBtnsDt {
+  display: none;
+  visibility: hidden;
+}
+
+#validationMsg {
+  color: red;
 }
 
 @media only screen and (min-width: 580px) {
@@ -22,5 +44,15 @@ body {
 
   .nav-height {
     height: auto;
+  }
+
+  #modalBtnsDt {
+    display: block;
+    visibility: visible;
+  }
+
+  #modalBtnsMb {
+    display: none;
+    visibility: hidden;
   }
 }
